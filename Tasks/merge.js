@@ -9,7 +9,7 @@ mergeTwoObjects = (object1, object2) => {
   for (attribute_name in object2) {
     object3[attribute_name] = object2[attribute_name];
   }
-  return object1, object2, object3;
+  return object3;
 };
 
 module.exports = mergeTwoObjects;
