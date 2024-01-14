@@ -2,15 +2,13 @@
 // Return an array without duplicates
 
 const distinct = (arr) => {
-  const newArr = [];
+  const res = [];
   arr.forEach((item) => {
-    if (newArr.includes(item)) {
-      delete arr[item];
-    } else {
-      newArr.push(item);
+    if (!res.includes(item)) {
+      res.push(item);
     }
   });
-  return arr;
+  return res;
 };
 
 module.exports = distinct;
