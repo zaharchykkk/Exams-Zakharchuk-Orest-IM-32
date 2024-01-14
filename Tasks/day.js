@@ -1,10 +1,10 @@
 'use strict';
 // Get day number
-const DAY = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+const DAY = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
 
 const parseDays = day => {
   for (let i = 0; i < DAY.length; i++) {
-    if (day.startsWith(DAY[i].toLowerCase())) {
+    if (day.startsWith(DAY[i])) {
       return i + 1;
     }
   }
