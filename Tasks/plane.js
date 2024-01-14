@@ -1,7 +1,8 @@
 'use strict';
 // Make nested array plane
 
-const const_plane = function(arr, res=[]) {
+const const_plane = (arr) => {
+  const res = [];
   let j = 0;
   for(let i = 0, length = arr.length; i < length; i++){
     const value = arr[i];
@@ -15,6 +16,6 @@ const const_plane = function(arr, res=[]) {
     };
   };
   return res
-}
+};
 
 module.exports = const_plane;
