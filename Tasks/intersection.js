@@ -1,7 +1,7 @@
 'use strict';
 // Find an intersection of two dictionaries
 
-intersection = function intersection(object_1, object_2) {
+const intersection = (object_1, object_2) => {
   first_keys = Object.keys(object_1);
   {
   }
