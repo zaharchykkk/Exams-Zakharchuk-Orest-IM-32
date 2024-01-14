@@ -1,3 +1,4 @@
+'use strict';
 // Reverse dict, exchange keys and values
 
 Reverse = (DATA) => {
