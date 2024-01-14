@@ -3,11 +3,11 @@
 
 const plannedArray = (arr) => {
   const res = [];
-  for(const value of arr) {
+  for (const value of arr) {
     if (Array.isArray(value)) {
-    res.push(...plannedArray(value));
-    }else{
-    res.push(value);
+      res.push(...plannedArray(value));
+    } else {
+      res.push(value);
     }
   }
   return res;
