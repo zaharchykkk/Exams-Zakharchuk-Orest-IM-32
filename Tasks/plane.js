@@ -13,4 +13,4 @@ const plannedArray = (arr) => {
   return res;
 };
 
-module.exports = const_plane;
+module.exports = plannedArray;
