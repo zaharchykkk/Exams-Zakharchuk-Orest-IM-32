@@ -1,3 +1,4 @@
+'use strict';
 // Get one random element from an array
 
 const SAMPLE = (arr) => {
