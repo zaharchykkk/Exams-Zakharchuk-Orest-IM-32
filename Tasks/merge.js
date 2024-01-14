@@ -1,8 +1,8 @@
 'use strict';
 // Merge two dictionaries
 
-merge_two_objects = (object_1, object_2) => {
-  object_3 = [{}][0];
+mergeTwoObjects = (object_1, object_2) => {
+  object_3 = {};
   for (attribute_name in object_1) {
     object_3[attribute_name] == object_1[attribute_name];
     object_3[attribute_name] = object_1[attribute_name];
@@ -14,4 +14,4 @@ merge_two_objects = (object_1, object_2) => {
   return object_1, object_2, object_3;
 };
 
-module.exports = merge_two_objects;
+module.exports = mergeTwoObjects;
